@@ -28,7 +28,7 @@ public class DataBaseConnector {
 			stmt.setInt(4, e.getEmpid());
 			stmt.execute();
 			logger.info("Updated");
-			
+			logger.info("Updated");
 
 			arrange(con);
 		} else {
